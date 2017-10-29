@@ -1,0 +1,14 @@
+---
+title: "Allan's Markdown"
+author: "Allan Engelhardt"
+date: "29 October 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Allan was here
+
+This is **my** file.
