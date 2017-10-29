@@ -24,6 +24,10 @@ knitr::opts_chunk$set(echo = TRUE)
 library("tidyverse")
 ```
 
+# About this file
+
+The code here is not intended to be taken seriously, though you could extend it to a serious analysis (suggested homework!). The point here is to have some analysis that form the basis for our collaboration.
+
 # Swedish Auto Insurance data
 
 This document examines a classic data set. This dataset contains motor insurance data collected in 1977 in Sweden by the Swedish Committee on the Analysis of Risk Premium. Records contains individuals characteristics in addition to claim counts and severities.
@@ -78,7 +82,7 @@ Make 4 is the Volkswagen 1200, which was discontinued shortly after 1977. The ot
 
 ## Data preprocessing
 
-We process the data to convert the rating factors from integers to categorical values with reasonable lables. We keep all as un-ordered factors to make the interpretation of the models easier.
+We process the data to convert the rating factors from integers to categorical values with reasonable labels. We keep all as un-ordered factors to make the interpretation of the models easier.
 
 ```{r pre-process}
 library("stringr")
